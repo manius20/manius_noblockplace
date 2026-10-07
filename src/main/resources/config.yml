@@ -1,0 +1,21 @@
+# ======================================================
+#         NoStructureBlock - Konfiguracja
+# ======================================================
+
+settings:
+  bypass-permission: "nostructureblock.admin"  # Uprawnienie pozwalające ominąć blokadę
+
+blocked-blocks:
+  enabled: true
+  deny-message: "&cNie masz uprawnień do stawiania bloku &e%block%&c!"
+  
+  # Lista bloków zablokowanych do stawiania:
+  list:
+    - STRUCTURE_BLOCK          # Structure Block całkowicie zablokowany
+    - STRUCTURE_VOID           # Pustka strukturalna
+    - COMMAND_BLOCK
+    - CHAIN_COMMAND_BLOCK
+    - REPEATING_COMMAND_BLOCK
+    - BARRIER
+    - JIGSAW
+    - LIGHT
