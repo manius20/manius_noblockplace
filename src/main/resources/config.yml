@@ -7,15 +7,14 @@ settings:
 
 blocked-blocks:
   enabled: true
-  deny-message: "&cNie masz uprawnień do stawiania bloku &e%block%&c!"
   
-  # Lista bloków zablokowanych do stawiania:
+  # Lista bloków, których stawianie jest cicho blokowane:
   list:
-    - STRUCTURE_BLOCK          # Structure Block całkowicie zablokowany
+    - STRUCTURE_BLOCK          # Structure Block
     - STRUCTURE_VOID           # Pustka strukturalna
     - COMMAND_BLOCK
     - CHAIN_COMMAND_BLOCK
     - REPEATING_COMMAND_BLOCK
     - BARRIER
     - JIGSAW
-    - LIGHT
+    - LIGHT`
