@@ -73,17 +73,14 @@ public class NoStructureBlock extends JavaPlugin implements Listener, CommandExe
 
         Material placedMaterial = event.getBlockPlaced().getType();
         if (blockedMaterials.contains(placedMaterial)) {
+            // Cicha blokada – brak jakiejkolwiek wiadomości na czacie
             event.setCancelled(true);
-            String rawMsg = getConfig().getString("blocked-blocks.deny-message", "&cNie masz uprawnień do stawiania bloku &e%block%&c!");
-            String formattedMsg = rawMsg.replace("%block%", placedMaterial.name());
-            player.sendMessage(color(formattedMsg));
         }
     }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!sender.hasPermission("nostructureblock.admin")) {
-            sender.sendMessage(color("&cNie masz uprawnień do tej komendy!"));
             return true;
         }
 
@@ -105,4 +102,4 @@ public class NoStructureBlock extends JavaPlugin implements Listener, CommandExe
         }
         return List.of();
     }
-}
+}``
