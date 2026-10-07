@@ -1,9 +1,9 @@
-name: manius_noblockplace
+name: NoStructureBlock
 version: 1.0.0
 main: pl.sesion16.nostructureblock.NoStructureBlock
 api-version: '1.20'
 author: Sesion16
-description: Blokuje stawianie Structure Block oraz innych zdefiniowanych bloków technicznych.
+description: Cicho blokuje stawianie Structure Block oraz innych zdefiniowanych bloków.
 commands:
   nostructureblock:
     description: Komenda przeładowująca konfigurację
