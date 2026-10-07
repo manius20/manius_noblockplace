@@ -1,0 +1,14 @@
+name: manius_noblockplace
+version: 1.0.0
+main: pl.sesion16.nostructureblock.NoStructureBlock
+api-version: '1.20'
+author: Sesion16
+description: Blokuje stawianie Structure Block oraz innych zdefiniowanych bloków technicznych.
+commands:
+  nostructureblock:
+    description: Komenda przeładowująca konfigurację
+    permission: nostructureblock.admin
+permissions:
+  nostructureblock.admin:
+    description: Pozwala na stawianie zablokowanych bloków i przeładowanie pluginu
+    default: op
