@@ -102,4 +102,4 @@ public class NoStructureBlock extends JavaPlugin implements Listener, CommandExe
         }
         return List.of();
     }
-}``
+}
