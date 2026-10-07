@@ -17,4 +17,4 @@ blocked-blocks:
     - REPEATING_COMMAND_BLOCK
     - BARRIER
     - JIGSAW
-    - LIGHT`
+    - LIGHT
